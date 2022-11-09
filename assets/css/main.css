@@ -1789,12 +1789,17 @@ input, select, textarea {
 		font-size: 3.5em;
 	}
 
-		header.major h2 + p {
-			color: #777;
-			font-size: 1.75em;
-			font-weight: 700;
-			margin-top: -0.75em;
-		}
+	header.major h2 + p {
+		color: #777;
+		font-size: 1.75em;
+		font-weight: 700;
+		margin-top: -0.75em;
+	}
+
+	header.minor h3 {
+		color: #4acaa8;
+		font-size: 2.5em;
+	}
 
 /* Form */
 
@@ -3156,9 +3161,13 @@ input, select, textarea {
 				font-size: 2.5em;
 			}
 
-				header.major h2 + p {
-					font-size: 1.5em;
-				}
+			header.major h2 + p {
+				font-size: 1.5em;
+			}
+
+			header.minor h3 {
+				font-size: 1.35em;
+			}
 
 		/* Features */
 
