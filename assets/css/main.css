@@ -3323,3 +3323,7 @@ input, select, textarea {
 			}
 
 	}
+
+	#line-break {
+		white-space: pre-line;
+	}
