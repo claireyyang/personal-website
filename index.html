@@ -5,6 +5,20 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
+	<!-- Script for Vercel Analytics -->
+	<script defer src="/_vercel/insights/script.js"></script>
+	<script>
+		window.va = function () {
+			(window.vaq = window.vaq || []).push(arguments);
+		};
+	</script>
+	<script>
+		window.va('beforeSend', (event) => {
+			if (event.url.includes('secret')) return null;
+			return event;
+		});
+	</script>
+
 	<head>
 		<title>Claire Yang</title>
 		<meta charset="utf-8" />
