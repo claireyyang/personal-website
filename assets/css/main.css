@@ -98,7 +98,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #2b2a2a;
+		color: #3d3d3d;
 		font-family: "Lato", sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -111,7 +111,7 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: solid 1px #e4e4e4;
-		color: inherit;
+		color: #832F4A;
 		text-decoration: none;
 	}
 
@@ -134,7 +134,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #2b2a2a;
+		color: #3d3d3d;
 		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 0.5625em 0;
@@ -1792,7 +1792,7 @@ input, select, textarea {
 	}
 
 	header.major h2 {
-		color: #832F4A;
+		color: #c62b79;
 		font-size: 2.75em;
 	}
 
@@ -1804,7 +1804,7 @@ input, select, textarea {
 	}
 
 	header.minor h3 {
-		color: #832F4A;
+		color: #c62b79;
 		font-size: 2.5em;
 	}
 
@@ -1875,7 +1875,7 @@ input, select, textarea {
 
 		select option {
 			color: #2b2a2a;
-			background: #fff;
+			background: #f7f7f7;
 		}
 
 		select:focus::-ms-value {
@@ -2712,7 +2712,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #832F4A;
+		background: #aa857b;
 		color: #d2f2e9;
 		height: 100%;
 		overflow-y: auto;
@@ -2724,11 +2724,11 @@ input, select, textarea {
 	}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #ffffff;
+			color: #f7f7f7;
 		}
 
 			#header h1 a, #header h2 a, #header h3 a, #header h4 a, #header h5 a, #header h6 a {
-				color: #ffffff;
+				color: #f7f7f7;
 			}
 
 		#header header p {
@@ -2740,7 +2740,7 @@ input, select, textarea {
 		}
 
 			#header a:hover {
-				color: #ffffff !important;
+				color: #f7f7f7 !important;
 			}
 
 		#header > header {
@@ -3334,3 +3334,4 @@ input, select, textarea {
 	#line-break {
 		white-space: pre-line;
 	}
+
